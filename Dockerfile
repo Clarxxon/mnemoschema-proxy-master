@@ -1,4 +1,4 @@
-FROM nginxinc/nginx-unprivileged:latest
+FROM nginx:latest
 
 COPY frontend.conf /etc/nginx/conf.d/default.conf
 
